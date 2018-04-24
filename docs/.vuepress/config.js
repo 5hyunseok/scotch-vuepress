@@ -1,5 +1,6 @@
 module.exports = {
     title: 'Scotch VuePress',
+    base: '/<REPO>/',
     description: "A demo documentation using VuePress",
     themeConfig:{
         nav: [
