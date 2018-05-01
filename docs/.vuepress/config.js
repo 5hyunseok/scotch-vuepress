@@ -1,22 +1,22 @@
 module.exports = {
-    title: 'Scotch VuePress',
-    description: "A demo documentation using VuePress",
+    title: 'Vue.js Todo 만들기',
+    description: "vuejs 교육용 자료 for Yonsei DBLab",
     themeConfig:{
         nav: [
-            { text: 'COUNTER', link: '/counter/' },
-            { text: 'GUIDE', link: '/guide/' },
+            { text: 'Todo 만들기', link: '/todo/' },
+            { text: '추가자료', link: '/material/' },
         ],
         sidebar: [
             {
-              title: 'Counter',
+              title: 'Todo',
               collapsable: false,
               children: [
-                '/counter/counter-app'
+                '/todo/todo-app'
               ]
             },
             {
-              title: 'API Guide',
-              collapsable: false,
+              title: '추가자료',
+              collapsable: true,
               children: [
                   '/guide/guide',
                   '/guide/api'
